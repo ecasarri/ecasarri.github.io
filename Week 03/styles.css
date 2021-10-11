@@ -1,1 +1,10 @@
 @charset "utf-8"
+
+
+body {
+  font-family: "Georgia", serif;
+  color: black;
+  line-height: 140%;
+  margin: 30px;
+  
+}
