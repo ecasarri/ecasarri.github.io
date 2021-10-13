@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Web Design 2: Esteban's clock assignment</title>
+<script>
+
+  function updateTime() {
+
+    var now = new Date();
+    var hours = now.getHours();
+    var minutes = now.getMinutes();
+    var seconds = now.getSeconds();
+    var currentTime = hours + ':' + minutes + ':' + seconds;
+    var myClock = document.getElementById('clock');
+
+    myClock.innerHTML = currentTime;
+  }
+
+    </script>
+  </head>
+  <body onload="updateTime()">
+    <div id="clock"></div>
+  </body>
+</html>
